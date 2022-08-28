@@ -25,15 +25,13 @@ const Login = () => {
         <section>
             <h1>Sign In</h1>
             <form onSubmit={handleSubmit}>
-                <label htmlFor="username">Username:</label>
-                <input
-                    type="text"
-                />
-                <label htmlFor="password">Password:</label>
-                <input
-                    type="password"
-                />
-                <button>{auth?.user ? 'enlever auth' : 'add auth'} </button>
+                <label>Username:</label>
+                <input type="text" value='fake data'/>
+                
+                <label>Password:</label>
+                <input type="text" value='fake data'/>
+
+                <button>{auth?.user ? 'enlever auth' : 'ajouter auth'} </button>
             </form>
         </section>
 

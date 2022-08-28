@@ -8,34 +8,20 @@ const Register = () => {
     }
 
     return (
-        <>
-                <section>
-                    <h1>Register</h1>
-                    <form onSubmit={handleSubmit}>
-                        <label>
-                            Username:
-                        </label>
-                        <input
-                            type="text"
-                        />
-                        <label>
-                            Password:
-                        </label>
-                        <input
-                            type="password"
-                        />
+        <section>
+            <h1>Register</h1>
+            <form onSubmit={handleSubmit}>
+                <label> Username: </label>
+                <input type="text" value='fake data'/>
 
+                <label> Password: </label>
+                <input type="text" value='fake data'/>
 
-                        <label>
-                            Confirm Password:
-                        </label>
-                        <input
-                            type="password"
-                        />
-                        <button>Sign Up</button>
-                    </form>
-                </section>
-        </>
+                <label> Confirm Password: </label>
+                <input type="text" value='fake data'/>
+                <button>Sign Up</button>
+            </form>
+        </section>
     )
 }
 
